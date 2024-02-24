@@ -1,0 +1,15 @@
+spring:
+  data:
+    mongodb:
+      reactive:
+        database: product-catalog
+        conn-string: mongodb://root:123456@localhost:27017
+      blocking:
+        database: product-catalog-blocking
+        conn-string: mongodb://root:123456@localhost:27017
+springdoc:
+  show-login-endpoint: true
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /swagger/swagger-ui.html
