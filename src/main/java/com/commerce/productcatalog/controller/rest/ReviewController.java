@@ -1,5 +1,5 @@
 package com.commerce.productcatalog.controller.rest;
 
-// TODO Hateoas, Graphql, Review, Swagger
+// TODO Graphql, Review
 public class ReviewController {
 }
